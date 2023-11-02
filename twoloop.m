@@ -4,8 +4,7 @@
 (*Z->Z Boson*)
 
 
-description = "El Ael -> Mu Amu, QED, total cross section, tree"; 
-If[$FrontEnd === Null, $FeynCalcStartupMessages = False; Print[description]; ]; 
+If[$FrontEnd === Null, $FeynCalcStartupMessages = False]; 
 If[$Notebooks === False, $FeynCalcStartupMessages = False];
 $LoadAddOns = {"FeynArts"}; 
 Get["FeynCalc`"];
